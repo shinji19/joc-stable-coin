@@ -1,0 +1,8 @@
+services:
+  app:
+    image: node:21.7.3
+    tty: true
+    init: true
+    working_dir: /opt/joc-stable-coin
+    volumes:
+      - ./:/opt/joc-stable-coin
