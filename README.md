@@ -1,13 +1,12 @@
-# Sample Hardhat Project
+# JOC stable coin
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+JOC testnet
 
-Try running some of the following tasks:
+Yen (FT)
+0xd0844eE79213806392B32207A4d35d3A877eFecE
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+YenNotesAndCoins (NFT)
+0x8Afd896139026ac438D06dF00Ab8920464e227ad
+
+Converter
+0x9d7E5B356d4656f7d7Fb5E6f8D7C68482Af3F341
