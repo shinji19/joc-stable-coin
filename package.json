@@ -1,6 +1,14 @@
 {
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat ignition deploy ./ignition/modules/Converter.ts --network joc_testnet",
+    "node": "npx hardhat node"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^3.4.2",
+    "@openzeppelin/hardhat-upgrades": "^3.1.0",
     "hardhat": "^2.22.3"
   }
 }
